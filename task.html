@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .result{
+        text-transform: uppercase;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Enter something" id="text">
+    <br><br>
+    <button type="button" id="btn1"  onclick="upperCase()">Translate to UPPERCASE</button>
+    <button type="button" id="btn2">Translate to lowercase</button><br><br>
+    <p id="result"></p>
+    <script>
+        let word =document.getElementById('text').value;
+        let result = document.getElementById("result");
+        function upperCase() {
+            word = document.getElementById("result");
+            console.log(document.getElementById("result").toUpperCase());
+            
+        }
+    </script>
+</body>
+</html>
